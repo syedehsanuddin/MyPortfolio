@@ -44,8 +44,11 @@ export default function Footer({ children }: Props) {
       <p>
         <AiOutlineCopyrightCircle className="inline-block" />
         &nbsp;
-        {new Date().getFullYear()} Ahsan Uddin Portfolio| {time.getHours()}:
-        {time.getMinutes()}
+        {new Date().getFullYear()}  &nbsp; <span className="text-5xl text-white font-tahu  inline">
+            Ahsan
+            Uddin 
+          </span> 
+          {/* | {time.getHours()}:{time.getMinutes()} */}
       </p>
     </footer>
   );

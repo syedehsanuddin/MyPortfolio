@@ -278,11 +278,6 @@ export default function Experience({ children }: Props) {
             alt="akshay-bharadva"
             className="w-32 rounded-full"
           />
-          <h2 className="text-5xl text-white font-tahu mb-4 -rotate-12 line-clamp-5">
-            Ahsan
-            <br />
-            Uddin
-          </h2>
         </div>
       </div>
       {/* ==================================LINKEDIN=================================== */}

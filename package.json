@@ -6,7 +6,6 @@
     "name": "Akshay Bharadva",
     "url": "https://akshay-bharadva.github.io"
   },
-  "homepage": "https://akshay-bharadva.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
