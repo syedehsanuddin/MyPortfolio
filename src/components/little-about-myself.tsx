@@ -42,25 +42,25 @@ const MyExperience: ExperienceType[] = [
     to: "Present",
     desc: (
       <>
-      <ul>
+        <ul>
           <li className="ml-5 mb-2 list-disc">
-        Setting up test automation frameworks for new products being introduced.
-        </li>
-        <li className="ml-5 mb-2 list-disc">
-        Functional, regression, performance, and exploratory testing for quality improvement.
-        </li>
-        <li className="ml-5 mb-2 list-disc">
-        Continuously updating and maintaining test documentation and creating detailed plans, and proposing software solutions.
-        </li>
-        <li className="ml-5 mb-2 list-disc">
-        Designing and executing test scenarios to ensure usability and functionality.
-        </li>
-        <li className="ml-5 mb-2 list-disc">
-        Automating tasks (API, UI, database) for improved efficiency and accuracy.
-        </li>
+            Setting up test automation frameworks for new products being introduced.
+          </li>
+          <li className="ml-5 mb-2 list-disc">
+            Functional, regression, performance, and exploratory testing for quality improvement.
+          </li>
+          <li className="ml-5 mb-2 list-disc">
+            Continuously updating and maintaining test documentation and creating detailed plans, and proposing software solutions.
+          </li>
+          <li className="ml-5 mb-2 list-disc">
+            Designing and executing test scenarios to ensure usability and functionality.
+          </li>
+          <li className="ml-5 mb-2 list-disc">
+            Automating tasks (API, UI, database) for improved efficiency and accuracy.
+          </li>
         </ul>
-        <br/>
-        <br/>
+        <br />
+        <br />
       </>
     ),
     techStack: ["Playwright", "Protractor", "Cucumber", "Miro", "Figma", "Typescript", "Swagger API"],
@@ -73,58 +73,58 @@ const MyExperience: ExperienceType[] = [
     to: "September 2021",
     desc: (
       <>
-      PROJECT: GORELO
-      <br />
-Worked on a Managed Service Provider application targeting US market. The MSP application named Gorleo (www.gorelo.io) is a complex system in terms of business model/flow with many intense features which may include Asset requisition, Contracts and Billing, RMM, etc.
+        PROJECT: GORELO
+        <br />
+        Worked on a Managed Service Provider application targeting US market. The MSP application named Gorleo (www.gorelo.io) is a complex system in terms of business model/flow with many intense features which may include Asset requisition, Contracts and Billing, RMM, etc.
         <ul>
           <li className="ml-5 mb-2 list-disc">
-          Web Automation using Selenium and NUnit 
+            Web Automation using Selenium and NUnit
           </li>
           <li className="ml-5 mb-2 list-disc">
-          Implementation of Selenium Framework 
+            Implementation of Selenium Framework
           </li>
           <li className="ml-5 mb-2 list-disc">
-          Troubleshooting and debugging
+            Troubleshooting and debugging
           </li>
           <li className="ml-5 mb-2 list-disc">
-          RMM testing and documentation
+            RMM testing and documentation
           </li>
           <li className="ml-5 mb-2 list-disc">
-          Microsoft Azure Devops
+            Microsoft Azure Devops
           </li>
         </ul>
         <br />
         <br />
-        
+
         PROJECT: COLDWELL BANKER BAIN
-      <br />
-Worked on a Managed Service Provider application targeting US market. The MSP application named Gorleo (www.gorelo.io) is a complex system in terms of business model/flow with many intense features which may include Asset requisition, Contracts and Billing, RMM, etc.
+        <br />
+        Worked on a Managed Service Provider application targeting US market. The MSP application named Gorleo (www.gorelo.io) is a complex system in terms of business model/flow with many intense features which may include Asset requisition, Contracts and Billing, RMM, etc.
         <ul>
           <li className="ml-5 mb-2 list-disc">
-          Coordinating with Software Developers and Project Managers and executing feature specific Test 
- Cases.
+            Coordinating with Software Developers and Project Managers and executing feature specific Test
+            Cases.
 
           </li>
           <li className="ml-5 mb-2 list-disc">
-          Coordinating with Software Developers and Project Managers and executing feature specific Test 
- Cases.
+            Coordinating with Software Developers and Project Managers and executing feature specific Test
+            Cases.
 
           </li>
           <li className="ml-5 mb-2 list-disc">
-          Performing different Functional and Non-Functional Testing techniques
+            Performing different Functional and Non-Functional Testing techniques
           </li>
           <li className="ml-5 mb-2 list-disc">
-          Created detailed test cases for functionality, regression, and release acceptance testing
+            Created detailed test cases for functionality, regression, and release acceptance testing
 
           </li>
           <li className="ml-5 mb-2 list-disc">
-          Created detailed test cases for functionality, regression, and release acceptance testing
+            Created detailed test cases for functionality, regression, and release acceptance testing
 
           </li>
         </ul>
         <br />
       </>
-      
+
     ),
     techStack: ["Test Planning", "C#", "Swagger", "Selenium", "NUnit", "AzureDevOps"],
   },
@@ -136,17 +136,17 @@ Worked on a Managed Service Provider application targeting US market. The MSP ap
     to: "October 2017",
     desc: (
       <>
-      IT Auditor
+        IT Auditor
 
         <ul>
           <li className="ml-5 mb-2 list-disc">
-          Thatta Cement
+            Thatta Cement
           </li>
           <li className="ml-5 mb-2 list-disc">
-          Summit Bank
+            Summit Bank
           </li>
           <li className="ml-5 mb-2 list-disc">
-          Etisalat
+            Etisalat
           </li>
         </ul>
         <br />
@@ -162,15 +162,15 @@ Worked on a Managed Service Provider application targeting US market. The MSP ap
     to: "Apr 2022",
     desc: (
       <>
-      PROJECT: MOBILELINK US
+        PROJECT: MOBILELINK US
 
 
         <ul>
           <li className="ml-5 mb-2 list-disc">
-          As part of my internship program, I Worked as a Junior Web and Desktop Application Developer.
+            As part of my internship program, I Worked as a Junior Web and Desktop Application Developer.
           </li>
           <li className="ml-5 mb-2 list-disc">
-          Played part in different Web and Desktop Data Handling applications.
+            Played part in different Web and Desktop Data Handling applications.
           </li>
         </ul>
       </>
@@ -242,7 +242,7 @@ const UsedTools: Tool[] = [
   {
     name: "Miro",
     href: "https://miro.com/",
-      desc: "Best visual planning for transperency",
+    desc: "Best visual planning for transperency",
   },
   {
     name: "Jira",
@@ -253,22 +253,24 @@ const UsedTools: Tool[] = [
 
 export default function Experience({ children }: Props) {
   return (
-    
+
     <section className="my-8">
       <div className="flex flex-col gap-5 items-center justify-center w-full h-full mb-10">
         <div className="flex flex-col gap-2 text-7xl mb-10">
           <p className="font-space text-slate-500">Heya,</p>
           <div className="flex gap-5 items-center">
             <p className="font-space text-slate-500 line-clamp-6">I&apos;m</p>
-            <h2 className="text-7xl text-white font-space font-bold line-clamp-7">
-              Ahsan Uddin
-            </h2>
+            <h3 className="text-7xl text-white font-space font-bold line-clamp-7">
+              <div className="content"  >
+                <h3 className="text" data-text="Ahsan Uddin">Ahsan Uddin</h3>
+              </div>
+            </h3>
           </div>
           <p className="font-space text-slate-500">Software Test Engineer.</p>
         </div>
       </div>
-            {/* ==============================DP========================================== */}
-            <div className="flex flex-col gap-5 items-center justify-center w-full h-full mb-10">
+      {/* ==============================DP========================================== */}
+      <div className="flex flex-col gap-5 items-center justify-center w-full h-full mb-10">
         <div className="flex gap-5 items-center">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
@@ -285,7 +287,7 @@ export default function Experience({ children }: Props) {
       </div>
       {/* ==================================LINKEDIN=================================== */}
       <div className="flex flex-col gap-5 items-center justify-center w-full h-full mb-10">
-      <div className="flex gap-5">
+        <div className="flex gap-5">
           {/* <Link
             className="mr-2 p-2 text-2xl text-white justify-center items-center gap-1 hover:bg-zinc-700 transition-all rounded-lg"
             href="https://github.com/akshay-bharadva"
@@ -311,9 +313,9 @@ export default function Experience({ children }: Props) {
             <AiOutlineMail />
           </Link>
         </div>
-        </div>
-        {/* ==========================================BRIEFING ABOUT ME===================================== */}
-        <div className="flex gap-10 items-center justify-between">
+      </div>
+      {/* ==========================================BRIEFING ABOUT ME===================================== */}
+      <div className="flex gap-10 items-center justify-between">
         <div className="">
           {/* 
           <h2 className="text-3xl font-bold text-white font-space mb-4">
@@ -328,8 +330,8 @@ export default function Experience({ children }: Props) {
             exploring open-source projects and studying their tech stack and
             coding conventions. My expertise includes Manual, Automation,
             Functional, Non-Functional and GUI testing for Web
-            and Native Apps. I further hold a very good command on Jira and MS Azure for bug tracking, Story creation 
-            with combination of Miro Board for PI planning under Agile Framework. 
+            and Native Apps. I further hold a very good command on Jira and MS Azure for bug tracking, Story creation
+            with combination of Miro Board for PI planning under Agile Framework.
           </p>
           <p className="font-space">
             Fun fact: I always try to create custom xpaths regardless if the test ids are provided, deriving complex custom xpaths are always fun for me rather than using boring ids, which is wrong obviously. <span className="text-primary-400">#LetsMakeThingsMoreComplicated</span>
