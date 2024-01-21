@@ -98,7 +98,7 @@ const MyExperience: ExperienceType[] = [
 
         PROJECT: COLDWELL BANKER BAIN
         <br />
-        Worked on a Managed Service Provider application targeting US market. The MSP application named Gorleo (www.gorelo.io) is a complex system in terms of business model/flow with many intense features which may include Asset requisition, Contracts and Billing, RMM, etc.
+        Worked on a Real Estate application targeting US market. The application named CBBAIN (https://www.coldwellbanker.com/) had multiple child applicaton that consisted of an intense business flow w.r.t indiviual entities and teams/groups.
         <ul>
           <li className="ml-5 mb-2 list-disc">
             Coordinating with Software Developers and Project Managers and executing feature specific Test
