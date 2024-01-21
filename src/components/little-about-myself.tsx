@@ -158,8 +158,8 @@ const MyExperience: ExperienceType[] = [
     orgName: "Zara Mobility Services",
     orgHref: "https://pk.linkedin.com/company/zara-mobility-services",
     position: "Desktop and Web Application developer - Intern",
-    from: "Jan 2022",
-    to: "Apr 2022",
+    from: "June 2016",
+    to: "Aug 2016",
     desc: (
       <>
         PROJECT: MOBILELINK US
