@@ -5,6 +5,29 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Prevent horizontal overflow on the entire page */
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure all elements inside the body respect box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Optional: Fix image overflow */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
 :root {
   --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 0, 0, 0;

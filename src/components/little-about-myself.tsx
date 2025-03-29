@@ -251,6 +251,54 @@ const UsedTools: Tool[] = [
   },
 ];
 
+
+const Cert: Tool[] = [
+  {
+    name: "Project Management Professional ",
+    href: "https://www.linkedin.com/learning/certificates/aa9f3ac1298d8682755552f97659707b4abe2874c07c5eaedcd492884520ca79?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B4FQ7MluKRHGRXjG%2FyLOvGQ%3D%3D",
+    desc: "Atlassian Agile Project Management Professional Certificate",
+  },
+  {
+    name: "Software Testing Professional",
+    href: "https://www.linkedin.com/learning/certificates/0277b7cb5d5bedb693047454623497b8bcc7a5a6cb6e0f233d35aa3880796daa?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B4FQ7MluKRHGRXjG%2FyLOvGQ%3D%3D",
+    desc: "LambdaTest Software Testing Professional Certificate",
+  },
+  {
+    name: "English Language Proficency",
+    href: "",
+    desc: "PTE Cerified",
+  },
+  {
+    name: "Digital Tansformation",
+    href: "https://www.linkedin.com/learning/certificates/c10eb0beca87b16a82c627d492b334375ef809f48c9a5565b5b30fdde0955ff0?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B4FQ7MluKRHGRXjG%2FyLOvGQ%3D%3D",
+    desc: "Effectively Leading Digital Transformation",
+  }
+];
+
+
+const Proj: Tool[] = [
+  {
+    name: "Abrahamic Timeline ",
+    href: "https://abrahamic-timeline.netlify.app/",
+    desc: "Explore the journey of faith through time, from the origins of humanity with Prophet Adam",
+  },
+  {
+    name: "Clothing Static Site",
+    href: "https://kap-pk.netlify.app",
+    desc: "Clothing Site for KAP",
+  },
+  {
+    name: "Hotel Business Site",
+    href: "https://chogho-sar.netlify.app",
+    desc: "Hotel Site for first point of contact",
+  },
+  {
+    name: "Pottery Startup business",
+    href: "https://peacheslimes.netlify.app/",
+    desc: "Pottery site for placing orders",
+  }
+];
+
 export default function Experience({ children }: Props) {
   return (
 
@@ -258,14 +306,17 @@ export default function Experience({ children }: Props) {
       <div className="flex flex-col gap-5 items-center justify-center w-full h-full mb-10">
         <div className="flex flex-col gap-2 text-7xl mb-10">
           <p className="font-space text-slate-500">Heya,</p>
-          <div className="flex gap-5 items-center">
-            <p className="font-space text-slate-500 line-clamp-6">I&apos;m</p>
-            <h3 className="text-7xl text-white font-space font-bold line-clamp-7">
-              <div className="content"  >
+          <div className="flex flex-wrap gap-3 md:gap-5 items-center">
+            <p className="font-space text-slate-500 line-clamp-6 text-lg md:text-2xl lg:text-3xl">
+              I&apos;m
+            </p>
+            <h3 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-white font-space font-bold line-clamp-7">
+              <div className="content">
                 <h3 className="text" data-text="Ahsan Uddin">Ahsan Uddin</h3>
               </div>
             </h3>
           </div>
+
           <p className="font-space text-slate-500">Software Test Engineer.</p>
         </div>
       </div>
@@ -364,11 +415,11 @@ export default function Experience({ children }: Props) {
             <p className="font-space my-1">
               {experience.techStack.map((tech) => (
                 <small
-                  key={tech}
-                  className="flex-inline rounded-full bg-slate-400/20 px-2 py-1 text-xs mr-3"
-                >
-                  {tech}
-                </small>
+                key={tech}
+                className="inline-block rounded-full bg-slate-400/20 px-2 py-1 text-xs mr-3 mb-2"
+              >
+                {tech}
+              </small>
               ))}
             </p>
             <div className="font-space">{experience.desc}</div>
@@ -423,6 +474,51 @@ export default function Experience({ children }: Props) {
           </p>
         ))}
         <p className="mb-2 font-space">and many more.</p>
+      </div>
+      {/* =======================================================Certifications==================================================  */}
+      <br></br>
+      <br></br>
+      <br></br>
+      <h2 className="text-3xl font-bold text-white font-space mb-4">Certifications</h2>
+      <div>
+        {Cert.map((tech) => (
+          <p className="mb-2 font-space" key={tech.href}>
+            <a
+              href={tech.href}
+              rel="noreferrer"
+              target="_blank"
+              className="text-primary-400 hover:text-primary-600 transition"
+            >
+              <span>
+                {tech.name} <BsArrowUpRight className="inline" />
+              </span>
+            </a>
+            : {tech.desc}
+          </p>
+        ))}
+      </div>
+
+        {/* =======================================================Projects==================================================  */}
+        <br></br>
+      <br></br>
+      <br></br>
+      <h2 className="text-3xl font-bold text-white font-space mb-4">Personal Projects</h2>
+      <div>
+        {Proj.map((tech) => (
+          <p className="mb-2 font-space" key={tech.href}>
+            <a
+              href={tech.href}
+              rel="noreferrer"
+              target="_blank"
+              className="text-primary-400 hover:text-primary-600 transition"
+            >
+              <span>
+                {tech.name} <BsArrowUpRight className="inline" />
+              </span>
+            </a>
+            : {tech.desc}
+          </p>
+        ))}
       </div>
     </section>
   );
